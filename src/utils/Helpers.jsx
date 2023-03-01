@@ -4,8 +4,6 @@ import { SecureAPI } from "./ApiRequest";
 
 
 function LogoutButton() {
-    const navigate = useNavigate();
-
     const handleLogout = () => {
         SecureAPI.removeAccessToken();
         window.location.replace('/');

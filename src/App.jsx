@@ -1,6 +1,5 @@
 import React from "react"
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import {api} from "./utils/ApiRequest";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
